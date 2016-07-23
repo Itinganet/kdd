@@ -7,8 +7,12 @@ package com.jcloud.net.jcluster;
 
 /**
  *
- * @author root
+ * @author Jeancarlo Campos Leão
+ * @version 1
  */
-public class JCluster {
-    
+public class JCluster<D extends Number> {
+    D [][] src_data=null;
+    public JCluster(D [][] data){
+        this.src_data = data;
+    }
 }
