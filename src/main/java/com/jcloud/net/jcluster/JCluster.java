@@ -6,9 +6,10 @@
 package com.jcloud.net.jcluster;
 
 /**
- *
+ * 
  * @author Jeancarlo Campos Leão
  * @version 1
+ * @todo: Propor heurística para otimizar o particionamento em um ambiente de duas dimensões.
  */
 public class JCluster<D extends Number> {
     D [][] src_data=null;
